@@ -1,26 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>GifTastic</title>
-	<link rel="stylesheet" type="text/css" href="assets/style.css">
+    <meta charset="UTF-8">
+    <title>GifTastic</title>
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
 </head>
+
 <body>
 
-	<div id="sportButtons">
-	
-	</div>
-	
-	<form id="sport-form">
-		<label for="sport-input"> Add a Sport</label>
-		<input type="text" name="" id="sport-input">
+    <header>
+        <form id="sports-gifs">
+            <div><label for="sports-input">Add in a sport GIF!</label></div>
+            <input id="sports-input" type="text">
+            <input type="submit" id="add-sport" value="Search">
+        </form>
 
-		<input type="submit" id="addSport" value="Submit">
-	</form>
 
-	<div id="sports">
-		
-	</div>
-	
+    </header>
+
+    <div id="sports-views"></div>
+    <div id="GIFArea"></div>
+
+
+
+    <!-- Link to Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Link to Javascript -->
+    <script src="assets/javascript.js"></script>
+
 </body>
+
 </html>
